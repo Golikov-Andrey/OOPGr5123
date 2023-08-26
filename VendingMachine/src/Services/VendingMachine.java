@@ -11,8 +11,6 @@ public class VendingMachine {
 
     public VendingMachine(Holder holder, CoinDispenser dispenser, List<Product> productList) {
 
-
-        
         this.holder = holder;
         this.dispenser = dispenser;
         this.productList = productList;
@@ -23,7 +21,6 @@ public class VendingMachine {
     }
 
     public void release() {
-
     }
 
     public List<Product> getProductList() {
